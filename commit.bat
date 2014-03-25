@@ -1,5 +1,5 @@
 git pull
 git add --all
-git commit -am "Meskov1q4"
+git commit -am "Meskov"
 git push origin master
 pause
