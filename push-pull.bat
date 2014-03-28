@@ -1,3 +1,3 @@
-git pull origin master
+git pull --rebase origin master
 git push origin master
 pause
