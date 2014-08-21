@@ -468,7 +468,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document28]
-DocumentPath=Op_amp.PcbLib
+DocumentPath=Logic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -484,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document29]
-DocumentPath=Power.PcbLib
+DocumentPath=Op_amp.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -500,7 +500,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document30]
-DocumentPath=Resistor.PcbLib
+DocumentPath=Power.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -516,7 +516,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document31]
-DocumentPath=Transistor.PcbLib
+DocumentPath=Resistor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -532,7 +532,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document32]
-DocumentPath=TracoPower.PcbLib
+DocumentPath=Transistor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -548,7 +548,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document33]
-DocumentPath=Piezoelectric.PcbLib
+DocumentPath=TracoPower.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -564,6 +564,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document34]
+DocumentPath=Piezoelectric.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document35]
 DocumentPath=Switch.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
