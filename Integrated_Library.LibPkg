@@ -52,7 +52,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=Cap.SchLib
+DocumentPath=Amps.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -68,7 +68,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document3]
-DocumentPath=Connector.SchLib
+DocumentPath=Cap.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document4]
-DocumentPath=Digital_poten.SchLib
+DocumentPath=Connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -100,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document5]
-DocumentPath=Diod.SchLib
+DocumentPath=Digital_poten.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -116,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document6]
-DocumentPath=Indicator.SchLib
+DocumentPath=Diod.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -132,7 +132,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document7]
-DocumentPath=Inductor.SchLib
+DocumentPath=Indicator.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -148,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document8]
-DocumentPath=Interface.SchLib
+DocumentPath=Inductor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -164,7 +164,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document9]
-DocumentPath=Logic.SchLib
+DocumentPath=Interface.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -180,7 +180,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document10]
-DocumentPath=Microcontrollers.SchLib
+DocumentPath=Logic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -196,7 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document11]
-DocumentPath=Op_amp.SchLib
+DocumentPath=Microcontrollers.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -212,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document12]
-DocumentPath=Power.SchLib
+DocumentPath=Op_amp.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -228,7 +228,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document13]
-DocumentPath=Piezoelectric.SchLib
+DocumentPath=Power.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -244,7 +244,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document14]
-DocumentPath=Resistor.SchLib
+DocumentPath=Piezoelectric.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -260,7 +260,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document15]
-DocumentPath=Switch.SchLib
+DocumentPath=Resistor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -276,7 +276,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document16]
-DocumentPath=Transistor.SchLib
+DocumentPath=Switch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -292,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document17]
-DocumentPath=Acoustic.PcbLib
+DocumentPath=Transistor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -308,7 +308,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document18]
-DocumentPath=aimtec.PcbLib
+DocumentPath=Acoustic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -324,7 +324,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document19]
-DocumentPath=Analog Devices.PcbLib
+DocumentPath=aimtec.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -340,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document20]
-DocumentPath=Atmel Microcontroller 8-Bit Automotive AVR.PcbLib
+DocumentPath=Analog Devices.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -356,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document21]
-DocumentPath=Cap.PcbLib
+DocumentPath=Atmel Microcontroller 8-Bit Automotive AVR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -372,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document22]
-DocumentPath=Connector.PcbLib
+DocumentPath=Cap.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -388,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document23]
-DocumentPath=Digital_poten.PcbLib
+DocumentPath=Connector.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -404,7 +404,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document24]
-DocumentPath=DIod.PcbLib
+DocumentPath=Digital_poten.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -420,7 +420,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document25]
-DocumentPath=Interface.PcbLib
+DocumentPath=DIod.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -436,7 +436,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document26]
-DocumentPath=Indicator.PcbLib
+DocumentPath=Interface.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -452,7 +452,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document27]
-DocumentPath=Inductor.PcbLib
+DocumentPath=Indicator.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -468,7 +468,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document28]
-DocumentPath=Logic.PcbLib
+DocumentPath=Inductor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -484,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document29]
-DocumentPath=Op_amp.PcbLib
+DocumentPath=Logic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -500,7 +500,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document30]
-DocumentPath=Piezoelectric.PcbLib
+DocumentPath=Op_amp.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -516,7 +516,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document31]
-DocumentPath=Power.PcbLib
+DocumentPath=Piezoelectric.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -532,7 +532,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document32]
-DocumentPath=Resistor.PcbLib
+DocumentPath=Power.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -548,7 +548,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document33]
-DocumentPath=Transistor.PcbLib
+DocumentPath=Resistor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -564,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document34]
-DocumentPath=TracoPower.PcbLib
+DocumentPath=Transistor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -580,7 +580,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document35]
-DocumentPath=Standard.PcbLib
+DocumentPath=TracoPower.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -596,6 +596,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document36]
+DocumentPath=Standard.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document37]
 DocumentPath=Switch.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -614,7 +630,7 @@ GenerateClassCluster=0
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -635,13 +651,13 @@ OutputDefault3=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -743,7 +759,7 @@ PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -765,7 +781,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -827,7 +843,7 @@ OutputDefault10=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -864,7 +880,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1044,7 +1060,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -1078,28 +1094,8 @@ OutputDefault5=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=doPDF v7
+TargetPrinter=Canon LBP6000/LBP6018
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=AutoCAD dwg/dxf PCB
-OutputName1=AutoCAD dwg/dxf File PCB
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf Schematic
-OutputName2=AutoCAD dwg/dxf File Schematic
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=ExportIDF
-OutputName3=Export IDF
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-OutputType4=ExportSTEP
-OutputName4=Export STEP
-OutputDocumentPath4=
-OutputVariantName4=[No Variations]
-OutputDefault4=0
 
 [Modification Levels]
 Type1=1
