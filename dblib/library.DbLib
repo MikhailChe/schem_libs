@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\tonik_000\Desktop\GOST_Libs\dblib\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\AD\GOST_Libs\dblib\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,45 +19,89 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Res01$
+LastFocusedTable=ResistorE192$
 [Table1]
 SchemaName=
-TableName=Capañitor$
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table2]
-SchemaName=
-TableName=Res01$
+TableName=CapacitorE24$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=107|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=PartNumber0=112|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
+[Table2]
+SchemaName=
+TableName=CapañitorE192$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=118|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table3]
 SchemaName=
-TableName=Resistors$
+TableName=CapañitorE192$_
 Enabled=False
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=
+[Table4]
+SchemaName=
+TableName=ResistorE192$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=113|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
+[Table5]
+SchemaName=
+TableName=ResistorsE24$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=107|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65|F100=61
 [FieldMap1]
-Options=FieldName=Capañitor$.Library Ref|TableNameOnly=Capañitor$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapacitorE24$.PartNumber|TableNameOnly=CapacitorE24$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Capañitor$.Footprint Ref|TableNameOnly=Capañitor$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapacitorE24$.Library Ref|TableNameOnly=CapacitorE24$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Capañitor$.Library Path|TableNameOnly=Capañitor$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapacitorE24$.Footprint Ref|TableNameOnly=CapacitorE24$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Capañitor$.Footprint Path|TableNameOnly=Capañitor$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapacitorE24$.Library Path|TableNameOnly=CapacitorE24$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Capañitor$.PartNumber|TableNameOnly=Capañitor$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapacitorE24$.Footprint Path|TableNameOnly=CapacitorE24$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Res01$.PartNumber|TableNameOnly=Res01$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapañitorE192$.Library Ref|TableNameOnly=CapañitorE192$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Res01$.Library Ref|TableNameOnly=Res01$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapañitorE192$.Footprint Ref|TableNameOnly=CapañitorE192$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Res01$.Footprint Ref|TableNameOnly=Res01$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapañitorE192$.Library Path|TableNameOnly=CapañitorE192$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Res01$.Library Path|TableNameOnly=Res01$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapañitorE192$.Footprint Path|TableNameOnly=CapañitorE192$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Res01$.Footprint Path|TableNameOnly=Res01$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapañitorE192$.PartNumber|TableNameOnly=CapañitorE192$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=ResistorE192$.Library Ref|TableNameOnly=ResistorE192$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=ResistorE192$.Footprint Ref|TableNameOnly=ResistorE192$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=ResistorE192$.Library Path|TableNameOnly=ResistorE192$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=ResistorE192$.Footprint Path|TableNameOnly=ResistorE192$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=ResistorE192$.PartNumber|TableNameOnly=ResistorE192$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=ResistorsE24$.Library Ref|TableNameOnly=ResistorsE24$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=ResistorsE24$.Footprint Ref|TableNameOnly=ResistorsE24$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=ResistorsE24$.Library Path|TableNameOnly=ResistorsE24$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=ResistorsE24$.Footprint Path|TableNameOnly=ResistorsE24$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=ResistorsE24$.PartNumber|TableNameOnly=ResistorsE24$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
