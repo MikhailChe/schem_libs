@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Mikey\Documents\AD\gost_libs\dblib\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\OneDrive\AD_Lib\gost_libs\dblib\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=ResistorsE24$
+LastFocusedTable=Resistors_Array$
 [Table1]
 SchemaName=
 TableName=CapacitorE24$
@@ -32,9 +32,6 @@ TableName=CapañitorE192$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=118|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table3]
 SchemaName=
 TableName=CapañitorE192$_
@@ -47,18 +44,21 @@ TableName=ResistorE192$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=113|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
 [Table5]
 SchemaName=
 TableName=ResistorsE24$
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table6]
+SchemaName=
+TableName=Resistors_Array$
+Enabled=True
+UserWhere=0
+UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=110|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartCode0=70|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76
 [FieldMap1]
 Options=FieldName=CapacitorE24$.PartNumber|TableNameOnly=CapacitorE24$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -99,3 +99,13 @@ Options=FieldName=ResistorsE24$.Library Path|TableNameOnly=ResistorsE24$|FieldNa
 Options=FieldName=ResistorsE24$.Footprint Path|TableNameOnly=ResistorsE24$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
 Options=FieldName=ResistorsE24$.PartNumber|TableNameOnly=ResistorsE24$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Resistors_Array$.PartNumber|TableNameOnly=Resistors_Array$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Resistors_Array$.Library Ref|TableNameOnly=Resistors_Array$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Resistors_Array$.Footprint Ref|TableNameOnly=Resistors_Array$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Resistors_Array$.Library Path|TableNameOnly=Resistors_Array$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Resistors_Array$.Footprint Path|TableNameOnly=Resistors_Array$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
