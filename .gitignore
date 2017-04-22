@@ -1,2 +1,14 @@
-History/**
-__Previews/**
+**/__Previews
+**/__Previews/**
+**/*.SchDocPreview
+**/*.PcbDocPreview
+
+*/History
+*/History/
+*/History/*
+*/History/**
+
+**/History
+**/History/
+**/History/*
+**/History/**
