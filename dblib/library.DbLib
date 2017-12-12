@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;User ID=admin;Mode=ReadWrite;Extended Properties="DSN=SQLite3 Datasource;Database=D:\MegaSync\AD_Lib\gost_libs\dblib\lib.sqlite;StepAPI=0;SyncPragma=FULL;NoTXN=0;Timeout=100000;ShortNames=1;LongNames=1;NoCreat=0;NoWCHAR=1;FKSupport=1;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;"
+ConnectionString=Provider=MSDASQL.1;Password="";Persist Security Info=True;User ID=admin;Mode=ReadWrite;Extended Properties="DSN=SQLite3 Datasource;Database=lib.sqlite;StepAPI=0;SyncPragma=FULL;NoTXN=0;Timeout=100000;ShortNames=1;LongNames=1;NoCreat=0;NoWCHAR=1;FKSupport=1;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=118|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=PartNumber0=175|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=185|ComponentLink1Description0=241|Package0=88
 [Table2]
 SchemaName=
 TableName=CapE24
@@ -37,7 +37,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=112|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=PartNumber0=166|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=185|ComponentLink1Description0=241|Package0=88
 [Table3]
 SchemaName=
 TableName=ResArray
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76
+BrowserOrder_Visible=PartNumber0=150|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=590|ComponentLink1Description0=241|Package0=114
 [Table4]
 SchemaName=
 TableName=ResE192
@@ -55,7 +55,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=113|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=113|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=PartNumber0=167|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=167|ComponentLink1URL0=557|ComponentLink1Description0=241|Package0=88
 [Table5]
 SchemaName=
 TableName=ResE24
@@ -64,7 +64,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|PartNumber0=107|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
+BrowserOrder_Visible=Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|PartNumber0=157|Value0=68|ComponentLink1URL0=557|ComponentLink1Description0=241|Package0=88
 [FieldMap1]
 Options=FieldName=CapE192.PartNumber|TableNameOnly=CapE192|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
