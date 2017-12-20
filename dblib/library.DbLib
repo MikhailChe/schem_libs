@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MSDASQL.1;Password="";Persist Security Info=True;User ID=admin;Mode=ReadWrite;Extended Properties="DSN=SQLite3 Datasource;Database=lib.sqlite;StepAPI=0;SyncPragma=FULL;NoTXN=0;Timeout=100000;ShortNames=1;LongNames=1;NoCreat=0;NoWCHAR=1;FKSupport=1;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;"
+ConnectionString=Provider=MSDASQL.1;Password="";Persist Security Info=True;User ID=admin;Mode=ReadWrite;Extended Properties="DSN=SQLite3 Datasource;Database=./lib.sqlite;StepAPI=0;SyncPragma=FULL;NoTXN=0;Timeout=100000;ShortNames=1;LongNames=1;NoCreat=0;NoWCHAR=1;FKSupport=1;JournalMode=;OEMCP=0;LoadExt=;BigInt=0;JDConv=0;"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,52 +19,37 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=ResE24
+LastFocusedTable=CapE192
 [Table1]
 SchemaName=
 TableName=CapE192
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=175|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=185|ComponentLink1Description0=241|Package0=88
 [Table2]
 SchemaName=
 TableName=CapE24
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=166|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=185|ComponentLink1Description0=241|Package0=88
 [Table3]
 SchemaName=
 TableName=ResArray
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=150|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=68|ComponentLink1URL0=590|ComponentLink1Description0=241|Package0=114
 [Table4]
 SchemaName=
 TableName=ResE192
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=167|Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|Value0=167|ComponentLink1URL0=557|ComponentLink1Description0=241|Package0=88
 [Table5]
 SchemaName=
 TableName=ResE24
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Ref0=105|Footprint Ref0=124|Library Path0=154|Footprint Path0=200|PartNumber0=157|Value0=68|ComponentLink1URL0=557|ComponentLink1Description0=241|Package0=88
 [FieldMap1]
 Options=FieldName=CapE192.PartNumber|TableNameOnly=CapE192|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
