@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=.\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=D:\gstlib\gost_libs\dblib\library.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -12,7 +12,7 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=.\library.xls
+LibraryDatabasePath=D:\gstlib\gost_libs\dblib\library.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=
@@ -26,54 +26,36 @@ TableName=CapacitorE24$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=112|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table2]
 SchemaName=
 TableName=CapañitorE192$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=118|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table3]
 SchemaName=
 TableName=CapañitorE192$_
 Enabled=False
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=
 [Table4]
 SchemaName=
 TableName=ResistorE192$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=113|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
 [Table5]
 SchemaName=
 TableName=ResistorsE24$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=107|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
 [Table6]
 SchemaName=
 TableName=Resistors_Array$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76|PartCode0=70
 [FieldMap1]
 Options=FieldName=CapacitorE24$.PartNumber|TableNameOnly=CapacitorE24$|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
