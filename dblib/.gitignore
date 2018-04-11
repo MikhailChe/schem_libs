@@ -8,6 +8,8 @@ library.DbLib
 **library.DbLib*
 **library.DbLib**
 
+*.DbLib
+**.DbLib
 
 History/*
 History/**
