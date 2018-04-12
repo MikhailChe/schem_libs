@@ -1,22 +1,22 @@
 **/__Previews
-**/__Previews/**
 **/*.SchDocPreview
 **/*.PcbDocPreview
 
-*/History
-*/History/
-*/History/*
-*/History/**
-
-**/History
 **/History/
-**/History/*
-**/History/**
 
 *.log
 
-History/*
-History/**
+# Project Logs
+**/Project\ Logs*/
+
+# Project Outputs
+**/Project\ Outputs*/
+
+# Auto-conversion notices
+*.PcbDoc.htm
+
+# Access lock file for dbLib sources
+**/*.ldb
 
 ~$*
 ~$**
