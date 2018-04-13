@@ -13,6 +13,12 @@
 **/History/*
 **/History/**
 
+*.DbLib
+*.log
+
+History/*
+History/**
+
 ~$*
 ~$**
 *~$*
@@ -22,4 +28,3 @@
 */~$**
 **/~$*
 **/~$**
-*.log
