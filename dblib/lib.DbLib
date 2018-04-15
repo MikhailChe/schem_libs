@@ -5,12 +5,12 @@ ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=libs
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
-DefaultColumnType=VARCHAR(255)
+DefaultColumnType=TEXT(255)
 LibraryDatabaseType=
 LibraryDatabasePath=
 DatabasePathRelative=0
@@ -19,13 +19,16 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=ALTIUM
-LastFocusedTable=ResE192
+LastFocusedTable=CapPolarSMD
 [Table1]
 SchemaName=
 TableName=CapE192
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=118|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table2]
 SchemaName=
 TableName=CapE24
@@ -37,14 +40,23 @@ BrowserOrder_Grouping=
 BrowserOrder_Visible=PartNumber0=112|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table3]
 SchemaName=
+TableName=CapPolarSMD
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=PartNumber0=123|Library Ref0=77|Footprint Ref0=116|Library Path0=83|Footprint Path0=98|Value0=52|Voltage0=63|ComponentLink1URL0=227|ComponentLink1Description0=170|Package0=65|Manufacturer0=93|Note0=48|Price0=47|Supplier0=106
+[Table4]
+SchemaName=
 TableName=ResArray
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76
-[Table4]
+BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Library Path0=106|Footprint Path0=137|Footprint Ref0=92|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76
+[Table5]
 SchemaName=
 TableName=ResE192
 Enabled=True
@@ -53,7 +65,7 @@ UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=PartNumber0=113|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=113|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
-[Table5]
+[Table6]
 SchemaName=
 TableName=ResE24
 Enabled=True
@@ -83,30 +95,42 @@ Options=FieldName=CapE24.Library Path|TableNameOnly=CapE24|FieldNameOnly=Library
 [FieldMap10]
 Options=FieldName=CapE24.Footprint Path|TableNameOnly=CapE24|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=ResArray.PartNumber|TableNameOnly=ResArray|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapPolarSMD.PartNumber|TableNameOnly=CapPolarSMD|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=ResArray.Library Ref|TableNameOnly=ResArray|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapPolarSMD.Library Ref|TableNameOnly=CapPolarSMD|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=ResArray.Library Path|TableNameOnly=ResArray|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapPolarSMD.Footprint Ref|TableNameOnly=CapPolarSMD|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=ResArray.Footprint Path|TableNameOnly=ResArray|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapPolarSMD.Library Path|TableNameOnly=CapPolarSMD|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=ResE192.PartNumber|TableNameOnly=ResE192|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CapPolarSMD.Footprint Path|TableNameOnly=CapPolarSMD|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=ResE192.Library Ref|TableNameOnly=ResE192|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResArray.PartNumber|TableNameOnly=ResArray|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=ResE192.Footprint Ref|TableNameOnly=ResE192|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResArray.Library Ref|TableNameOnly=ResArray|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=ResE192.Library Path|TableNameOnly=ResE192|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResArray.Library Path|TableNameOnly=ResArray|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=ResE192.Footprint Path|TableNameOnly=ResE192|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResArray.Footprint Path|TableNameOnly=ResArray|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=ResE24.PartNumber|TableNameOnly=ResE24|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResArray.Footprint Ref|TableNameOnly=ResArray|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=ResE24.Library Ref|TableNameOnly=ResE24|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResE192.PartNumber|TableNameOnly=ResE192|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=ResE24.Footprint Ref|TableNameOnly=ResE24|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResE192.Library Ref|TableNameOnly=ResE192|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=ResE24.Library Path|TableNameOnly=ResE24|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=ResE192.Footprint Ref|TableNameOnly=ResE192|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
+Options=FieldName=ResE192.Library Path|TableNameOnly=ResE192|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=ResE192.Footprint Path|TableNameOnly=ResE192|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=ResE24.PartNumber|TableNameOnly=ResE24|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=ResE24.Library Ref|TableNameOnly=ResE24|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=ResE24.Footprint Ref|TableNameOnly=ResE24|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=ResE24.Library Path|TableNameOnly=ResE24|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
 Options=FieldName=ResE24.Footprint Path|TableNameOnly=ResE24|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
