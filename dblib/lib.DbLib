@@ -26,54 +26,39 @@ TableName=CapE192
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=118|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table2]
 SchemaName=
 TableName=CapE24
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=112|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=131|ComponentLink1Description0=170|Package0=65
 [Table3]
 SchemaName=
 TableName=CapPolarSMD
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
+BrowserOrder_Sorting=PartNumber0=Up
 BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=123|Library Ref0=77|Footprint Ref0=116|Library Path0=83|Footprint Path0=98|Value0=52|Voltage0=63|ComponentLink1URL0=227|ComponentLink1Description0=170|Package0=65|Manufacturer0=93|Note0=48|Price0=47|Supplier0=106
+BrowserOrder_Visible=PartNumber0=124|Library Ref0=77|Footprint Ref0=92|Library Path0=83|Footprint Path0=110|Value0=53|Voltage0=63|ComponentLink1URL0=227|ComponentLink1Description0=170|Package0=86|Manufacturer0=93|Note0=48|Price0=47|Supplier0=106
 [Table4]
 SchemaName=
 TableName=ResArray
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=99|Library Ref0=77|Library Path0=106|Footprint Path0=137|Footprint Ref0=92|Value0=52|ComponentLink1URL0=394|ComponentLink1Description0=170|Package0=76
 [Table5]
 SchemaName=
 TableName=ResE192
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=113|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=113|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
 [Table6]
 SchemaName=
 TableName=ResE24
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=PartNumber0=107|Library Ref0=77|Footprint Ref0=92|Library Path0=106|Footprint Path0=137|Value0=52|ComponentLink1URL0=374|ComponentLink1Description0=170|Package0=65
 [FieldMap1]
 Options=FieldName=CapE192.PartNumber|TableNameOnly=CapE192|FieldNameOnly=PartNumber|FieldType=0|ParameterName=PartNumber|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
