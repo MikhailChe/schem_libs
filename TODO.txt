@@ -1,5 +1,2 @@
-Удалить поверхностные конденсаторы из библиотеки cap.schlib
-
 SH400M3R30B5S-1012 https://www.promelec.ru/pdf/Yageo_E-Cap_All.pdf
 SH016M0330B3F-0811 https://www.promelec.ru/pdf/Yageo_E-Cap_All.pdf
-DE2E3KH102MA3B http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/DE2_KH_E.pdf
